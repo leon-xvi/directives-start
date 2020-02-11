@@ -23,8 +23,10 @@
           </li>
         </div>
       </ul>
-      <p appHighlight>Style me with basic directive!</p>
-      <p appBetterHighlight>Style me with basic directive!</p>
+      <p appHighlight>Style me with a basic directive!</p>
+      <p appBetterHighlight [defaultColor]="'purple'" [highlightColor]="'pink'">
+        Style me with a better directive!
+      </p>
     </div>
   </div>
 </div>
